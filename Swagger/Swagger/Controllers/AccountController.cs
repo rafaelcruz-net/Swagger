@@ -20,7 +20,6 @@ using System.Web.Http.Description;
 
 namespace Swagger.Controllers
 {
-    [Authorize]
     [RoutePrefix("api/Account")]
     public class AccountController : ApiController
     {
